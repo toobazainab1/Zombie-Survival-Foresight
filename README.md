@@ -46,12 +46,13 @@ Players must outsmart zombies by making strategic moves while the **AI predicts 
 <img width="1431" height="798" alt="ss1" src="https://github.com/user-attachments/assets/d70f8a00-d743-4924-bb00-5e2cb41f6cc8" />
 
 
-### How to Play
-<img width="1090" height="164" alt="ss2" src="https://github.com/user-attachments/assets/f1f0c306-e59e-4237-a602-0896a36075c0" />
+### Victory / score
+<img width="1440" height="713" alt="ss5" src="https://github.com/user-attachments/assets/20973872-03aa-4a0d-ae9f-33e0c210f708" />
 
 
 ### Game Over / Score 
-<img width="992" height="619" alt="ss4" src="https://github.com/user-attachments/assets/f68a7a50-409b-4c1d-9bcd-60d37dcfc573" />
+![ss7](https://github.com/user-attachments/assets/ed496a43-3d52-47e4-972f-1389934695e3)
+
 
 
 ---
