@@ -51,8 +51,7 @@ Players must outsmart zombies by making strategic moves while the **AI predicts 
 
 
 ### Game Over / Score 
-![ss7](https://github.com/user-attachments/assets/ed496a43-3d52-47e4-972f-1389934695e3)
-
+<img width="1440" height="757" alt="ss7" src="https://github.com/user-attachments/assets/bb780410-56f0-4533-af15-e0af822ab86b" />
 
 
 ---
