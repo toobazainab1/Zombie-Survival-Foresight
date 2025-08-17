@@ -1,4 +1,4 @@
-# 🧟 Zombie Survival Foresight
+# Zombie Survival Foresight
 
 **A Minimax-powered survival game where zombies predict your moves!**
 
