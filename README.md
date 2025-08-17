@@ -1,4 +1,4 @@
-# Zombie Survival Foresight
+# 🧟 Zombie Survival Foresight
 
 **A Minimax-powered survival game where zombies predict your moves!**
 
@@ -41,7 +41,15 @@ Players must outsmart zombies by making strategic moves while the **AI predicts 
 ---
 
 ## 📸 Screenshots
-![Game Screenshot](screenshot.png)  
+
+### Main Menu
+![Main Menu](screenshot1.png)
+
+### Gameplay
+![Gameplay](screenshot2.png)
+
+### Game Over / Score (Optional)
+![Game Over](screenshot3.png)
 
 ---
 
