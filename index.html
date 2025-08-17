@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zombie Survival: Foresight</title>
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Meta for Hackathon judges -->
+  <meta name="description" content="Turn-based survival on a 10x10 grid. Zombies use Minimax with alpha–beta pruning to predict your next moves and corner you. Built in vanilla HTML/CSS/JS.">
+</head>
+<body>
+  <header class="topbar">
+    <h1>🧠 Foresight: Zombie Survival</h1>
+    <p>Created by Tooba Zainab</p>
+    <div class="controls">
+      <button id="btn-new">New Game</button>
+      <label>Depth:
+        <select id="depth">
+          <option value="2">2 ply</option>
+          <option value="3" selected>3 ply</option>
+          <option value="4">4 ply</option>
+        </select>
+      </label>
+      <label>Zombies:
+        <select id="zcount">
+          <option value="2">2</option>
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+        </select>
+      </label>
+      <label>Walls:
+        <select id="wcount">
+          <option value="8">8</option>
+          <option value="12" selected>12</option>
+          <option value="16">16</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="left">
+      <div id="board" class="board" aria-label="Game board" role="grid"></div>
+
+      <div class="hud">
+        <div class="stat">Turn: <span id="turn">0</span></div>
+        <div class="stat">Status: <span id="status">Your move (Arrow keys or WASD)</span></div>
+        <div class="stat">Best AI Lookahead: <span id="hint">—</span></div>
+      </div>
+
+      <div class="help">
+        <details>
+          <summary>How it works (Minimax)</summary>
+          <p>
+            Each zombie simulates future turns using Minimax + alpha–beta pruning.
+            On zombie turns it <em>maximizes</em> a trap score; on player turns it assumes you choose the move that
+            <em>minimizes</em> that score. The heuristic rewards closing distance, forming flanks, and penalizes your safe mobility.
+          </p>
+          <p>Controls: Arrow keys or WASD. Survive for 20 turns to win.</p>
+        </details>
+      </div>
+    </section>
+
+    <aside class="right">
+      <h2>Foresight Meter</h2>
+      <p id="oracle">AI is thinking...</p>
+
+      <h3>Submission blurb (copy this)</h3>
+      <textarea id="blurb" readonly rows="10"></textarea>
+
+      <div class="footer-note">
+        <p>Built with HTML + CSS + JavaScript (frontend only). Deployable on GitHub Pages.</p>
+      </div>
+    </aside>
+  </main>
+
+  <div id="overlay" class="overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal">
+      <h2 id="end-title">Game Over</h2>
+      <p id="end-detail">Zombies caught you.</p>
+      <div class="modal-actions">
+        <button id="btn-restart">Play Again</button>
+        <button id="btn-close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
