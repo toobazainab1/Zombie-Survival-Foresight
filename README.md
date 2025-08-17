@@ -1,4 +1,4 @@
-# 🧟 Zombie Survival Foresight
+# Zombie Survival Foresight
 
 **A Minimax-powered survival game where zombies predict your moves!**
 
@@ -43,13 +43,16 @@ Players must outsmart zombies by making strategic moves while the **AI predicts 
 ## 📸 Screenshots
 
 ### Main Menu
-![Main Menu](screenshot1.png)
+<img width="1431" height="798" alt="ss1" src="https://github.com/user-attachments/assets/d70f8a00-d743-4924-bb00-5e2cb41f6cc8" />
 
-### Gameplay
-![Gameplay](screenshot2.png)
 
-### Game Over / Score (Optional)
-![Game Over](screenshot3.png)
+### How to Play
+<img width="1090" height="164" alt="ss2" src="https://github.com/user-attachments/assets/f1f0c306-e59e-4237-a602-0896a36075c0" />
+
+
+### Game Over / Score 
+<img width="992" height="619" alt="ss4" src="https://github.com/user-attachments/assets/f68a7a50-409b-4c1d-9bcd-60d37dcfc573" />
+
 
 ---
 
