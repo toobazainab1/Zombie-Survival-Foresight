@@ -57,13 +57,13 @@ Players must outsmart zombies by making strategic moves while the **AI predicts 
 ---
 
 ## 🏆 Hackathon Submission
-- 📂 **Repository:** [Your Repo Link Here]  
-- 🌍 **Live Game:** [GitHub Pages Link Here]  
+- 📂 **Repository:** [https://github.com/toobazainab1/Zombie-Survival-Foresight](https://github.com/toobazainab1/Zombie-Survival-Foresight)
+- 🌍 **Live Game:** https://inquisitive-shortbread-555bf4.netlify.app
 
 ---
 
 ## 👩‍💻 Author
 **Tooba Zainab**  
-*Software Engineering Student | Web Game Developer*  
+*Software Engineering Student*  
 
 ![Profile](https://img.shields.io/badge/Author-Tooba%20Zainab-purple?style=for-the-badge)
